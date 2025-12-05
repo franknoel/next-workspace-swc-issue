@@ -1,0 +1,15 @@
+packages:
+  - "packages/*"
+minimumReleaseAge: 2880
+minimumReleaseAgeExclude:
+  - react
+  - react-dom
+  - turbo
+  - next
+  - "@next/env"
+  - "@next/third-parties"
+  - "@next/bundle-analyzer"
+  - "@next/eslint-plugin-next"
+  - "eslint-config-next"
+onlyBuiltDependencies:
+  - sharp
